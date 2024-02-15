@@ -1,0 +1,7 @@
+version: '3.8'
+services: 
+    mywebcontainer: 
+      container_name: nginx_web 
+      build: .
+      ports: 
+        - 8080:80
