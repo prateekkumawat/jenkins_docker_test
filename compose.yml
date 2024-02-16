@@ -5,3 +5,9 @@ services:
       build: .
       ports: 
         - 8080:80
+
+    newwebcontainer: 
+      container_name: httpd_web
+      image: httpd:latest
+      ports:
+        - 8089:80
